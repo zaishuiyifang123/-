@@ -158,10 +158,11 @@
 
 .nav {
     height: 45px;
-    background-color: aqua;
+    border-bottom: 2px solid #b1191a;
 }
 
 .nav .w .dropdown {
+    float: left;
     width: 209px;
     height: 45px;
     background-color: #b1191a;
@@ -177,12 +178,14 @@
 }
 
 .nav .w .dropdown .dd {
+    display: none;
     width: 209px;
     height: 466px;
     background-color: #c81623;
 }
 
 .nav .w .dropdown .dd li {
+    position: relative;
     margin-left: 1px;
     padding-left: 12px;
     height: 31px;
@@ -190,6 +193,110 @@
     line-height: 31px;
 }
 
+.nav .w .dropdown .dd li:hover {
+    background-color: white;
+}
+
+.nav .w .dropdown .dd li:hover a {
+    color: #c81623;
+}
+
+.nav .w .dropdown .dd li::after {
+    position: absolute;
+    top: 1px;
+    right: 10px;
+    font-family: 'icomoon';
+    font-size: 14px;
+    content: "\e920";
+    color: white;
+}
+
 .nav .w .dropdown .dd li a {
     color: #ffffff;
+}
+
+.nav .w .navitems {
+    float: left;
+}
+
+.nav .w .navitems ul {
+    height: 45px;
+}
+
+.nav .w .navitems ul li {
+    float: left;
+}
+
+.nav .w .navitems ul li a {
+    display: block;
+    padding: 0 21px;
+    height: 45px;
+    font-size: 16px;
+    color: #333333;
+    text-align: center;
+    line-height: 45px;
+}
+
+.nav .w .navitems ul li .asas {
+    display: block;
+    padding: 0 21px;
+    padding-left: 42px;
+    height: 45px;
+    font-size: 16px;
+    color: #333333;
+    text-align: center;
+    line-height: 45px;
+}
+
+.nav .w .navitems ul li a:hover {
+    background-color: #b1191a;
+    color: white;
+}
+
+footer {
+    height: 417px;
+    background-color: #f5f5f5;
+}
+
+footer .w ul {
+    width: 100%;
+    height: 108px;
+    border-bottom: 1px solid #ededed;
+}
+
+footer .w li {
+    float: left;
+    margin-top: 30px;
+    margin-right: 63px;
+    width: 168px;
+    height: 50px;
+}
+
+footer .w .first {
+    margin-left: 36px;
+}
+
+footer .w li .img {
+    float: left;
+    margin-right: 7px;
+    width: 50px;
+    height: 50px;
+    background: url(../images/icons.png) no-repeat -253px -2px;
+}
+
+footer .w li .text {
+    float: left;
+    width: 108px;
+    height: 50px;
+}
+
+footer .w li .text h1 {
+    font-size: 14px;
+    font-weight: 700;
+    color: #333333;
+}
+
+footer .w li .text p {
+    font-size: 12px;
+    color: #666666;
 }
