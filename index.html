@@ -1,191 +1,71 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="hahaha">
+    <title>品优购</title>
     <link rel="shortcut icon" href="icon.ico">
-    <title>网页测试</title>
-    <link rel="stylesheet" href="a.css">
-    <style>
-        .lizhixiong {
-            width: 800px;
-            height: 500px;
-            margin: 10px auto;
-            background-color: aqua;
-            color: azure;
-            font-size: 40px;
-            text-align: center;
-            line-height: 500px;
-        }
-    </style>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/commen.css">
 </head>
 
 <body>
-    <audio src="bugua.mp3" autoplay="autoplay" controls></audio>
-    <div class="lizhixiong">
-        小黑子！
-        一个真正的man！！！
-    </div>
-    <!-- start head  -->
-    <div class="head">
+    <section class="shortcut">
         <div class="w">
-            <img class="img" src="学成在线.png">
-            <div class="nav">
-                <li class="li"><a href="#" class="a">首页</a></li>
-                <li class="li li2"><a href="#" class="a">课程</a></li>
-                <li class="li li2"><a href="#" class="a">职业规划</a></li>
+            <div class="fl">
+                品优购欢迎您!&nbsp;
+                <a href="#" class="sign">请登录</a>
+                <a href="#" class="register">免费注册</a>
             </div>
-            <div class="search">
-                <input type="text" value="输入关键词" class="kuang">
-                <button class="button"></button>
-            </div>
-            <div class="user">
-                <img src="s.png" class="img2">
-                <div class="username">在水一方</div>
-            </div>
-        </div>
-    </div>
-    <!-- end head  -->
-    <!-- start banner -->
-    <div class="banner">
-        <div class="center">
-            <div class="subnav">
-                <li class="li"><a href="#">前端开发<span>&gt;</span></a></li>
-                <li class="li"><a href="#">前端开发<span>&gt;</span></a></li>
-                <li class="li"><a href="#">前端开发<span>&gt;</span></a></li>
-                <li class="li"><a href="#">前端开发<span>&gt;</span></a></li>
-                <li class="li"><a href="#">前端开发<span>&gt;</span></a></li>
-                <li class="li"><a href="#">前端开发<span>&gt;</span></a></li>
-                <li class="li"><a href="#">前端开发<span>&gt;</span></a></li>
-                <li class="li"><a href="#">前端开发<span>&gt;</span></a></li>
-                <li class="li"><a href="#">前端开发<span>&gt;</span></a></li>
-            </div>
-            <div class="course">
-                <h2>我的课程表</h2>
-                <div class="li2">
-                    <li style="padding-top:19px">
-                        <h3>正在学习 程序语言设计</h3>
-                        <p>正在学习-使用对象</p>
-                    </li>
-                    <li>
-                        <h3>正在学习 程序语言设计</h3>
-                        <p>正在学习-使用对象</p>
-                    </li>
-                    <li>
-                        <h3>正在学习 程序语言设计</h3>
-                        <p>正在学习-使用对象</p>
-                    </li>
-                    <a href="#">
-                        全部课程
-                    </a>
-                </div>
+            <div class="fr">
+                <ul>
+                    <li>我的订单</li>
+                    <li></li>
+                    <li class="font-icon">我的品优购</li>
+                    <li></li>
+                    <li>企业采购</li>
+                    <li></li>
+                    <li class="font-icon">关注品优购</li>
+                    <li></li>
+                    <li>品优购会员</li>
+                    <li></li>
+                    <li class="font-icon">客户服务</li>
+                    <li></li>
+                    <li class="font-icon">网站导航</li>
+                </ul>
             </div>
         </div>
-    </div>
-    <!-- goods -->
-    <div class="goods w">
-        <h2 class="title">
-            精品推荐
-        </h2>
-        <ul class="ul">
-            <li><a href="#">Java</a></li>
-            <li><a href="#">Java</a></li>
-            <li><a href="#">Java</a></li>
-            <li><a href="#">Java</a></li>
-            <li><a href="#">Java</a></li>
-            <li><a href="#">Java</a></li>
+    </section>
+    <header class="header w">
+        <div class="logo">
+            <h1>
+                <a href="#" title="返回主页">品优购</a>
+            </h1>
+        </div>
+        <div class="search">
+            <input type="search" placeholder="品优购">
+            <input type="submit" value="查找">
+        </div>
+        <ul class="hot">
+            <!--        -->
+            <li><a href="#" class="first-a">优惠购首发</a></li>
+            <li><a href="#">亿元优惠</a></li>
+            <li><a href="#">9.9元团购</a></li>
+            <li><a href="#">满99减30</a></li>
+            <li><a href="#">办公用品</a></li>
+            <li><a href="#">电脑</a></li>
+            <li><a href="#">通信</a></li>
         </ul>
-        <h5>
-            <a href="#">修改兴趣</a>
-        </h5>
-    </div>
-    <div class="box w">
-        <div class="box-hd">
-            <h5 class="title">
-                精品推荐
-            </h5>
-            <span><a href="#">查看全部</a></span>
-        </div>
-        <div class="box-bd">
-            <li><img src="pic.png">
-                <em>
-                    <img src="hot.png">
-                </em>
-                <h4>Think PHP 5.0 博客系统实战项目演练</h4>
-                <span class="span1"><span class="span2">高级</span> · 1125人在学</span>
-            </li>
-            <li><img src="pic.png">
-                <h4>Think PHP 5.0 博客系统实战项目演练</h4>
-                <span class="span1"><span class="span2">高级</span> · 1125人在学</span>
-            </li>
-            <li><img src="pic.png">
-                <h4>Think PHP 5.0 博客系统实战项目演练</h4>
-                <span class="span1"><span class="span2">高级</span> · 1125人在学</span>
-            </li>
-            <li><img src="pic.png">
-                <h4>Think PHP 5.0 博客系统实战项目演练</h4>
-                <span class="span1"><span class="span2">高级</span> · 1125人在学</span>
-            </li>
-            <li style="margin-right: 0;"><img src="pic.png">
-                <h4>Think PHP 5.0 博客系统实战项目演练</h4>
-                <span class="span1"><span class="span2">高级</span> · 1125人在学</span>
-            </li>
-            <li><img src="pic.png">
-                <h4>Think PHP 5.0 博客系统实战项目演练</h4>
-                <span class="span1"><span class="span2">高级</span> · 1125人在学</span>
-            </li>
-            <li><img src="pic.png">
-                <h4>Think PHP 5.0 博客系统实战项目演练</h4>
-                <span class="span1"><span class="span2">高级</span> · 1125人在学</span>
-            </li>
-            <li><img src="pic.png">
-                <h4>Think PHP 5.0 博客系统实战项目演练</h4>
-                <span class="span1"><span class="span2">高级</span> · 1125人在学</span>
-            </li>
-            <li><img src="pic.png">
-                <h4>Think PHP 5.0 博客系统实战项目演练</h4>
-                <span class="span1"><span class="span2">高级</span> · 1125人在学</span>
-            </li>
-            <li style="margin-right: 0;"><img src="pic.png">
-                <h4>Think PHP 5.0 博客系统实战项目演练</h4>
-                <span class="span1"><span class="span2">高级</span> · 1125人在学</span>
-            </li>
-        </div>
-    </div>
-    <div class="end">
-        <div class="w">
-            <div class="left">
-                <img src="学成在线.png">
-                <p>
-                    学成在线致力于普及中国最好的教育它与中国一流大学和机构合作提供在线课程。<br>
-                    © 2017年XTCG Inc.保留所有权利。-沪ICP备15025210号
-                </p>
-                <a href="#">下载APP</a>
-            </div>
-            <div class="right">
-                <dl class="dl3">
-                    <dt>合作伙伴</dt>
-                    <dd>合作机构</dd>
-                    <dd>合作导师</dd>
-                </dl>
-                <dl class="dl2">
-                    <dt>新手指南</dt>
-                    <dd>如何注册</dd>
-                    <dd>如何选课</dd>
-                    <dd>学分是什么</dd>
-                    <dd>考试未通过怎么办</dd>
-                </dl>
-                <dl class="dl1">
-                    <dt>关于学成网</dt>
-                    <dd>关于</dd>
-                    <dd>管理团队</dd>
-                    <dd>工作机会</dd>
-                </dl>
+        <div class="count">
+            我的购物车
+            <div class="num">
+                8
             </div>
         </div>
-    </div>
+    </header>
 </body>
 
 </html>
