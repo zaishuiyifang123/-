@@ -352,3 +352,19 @@ footer .w .help dd p {
     font-size: 16px;
 
 }
+
+footer .w .dress .top {
+    margin-left: 86px;
+    margin-top: 20px;
+    line-height: 100%;
+}
+
+footer .w .dress .top a {
+    margin: 0 15px;
+}
+
+footer .w .dress .bottom p {
+    margin-top: 16px;
+    text-align: center;
+    line-height: 100%;
+}
