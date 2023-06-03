@@ -1,0 +1,64 @@
+.header .sk {
+    position: absolute;
+    left: 184px;
+    top: 40px;
+    padding: 3px 14px;
+    border-left: 2px solid red;
+}
+
+
+.nav .hd {
+    float: left;
+    line-height: 43px;
+}
+
+.nav .hd a {
+    float: left;
+    padding: 0 28px;
+    font-size: 16px;
+    color: #000000;
+    font-weight: 700;
+}
+
+.nav .hd a:hover {
+    background-color: red;
+    color: white;
+}
+
+.nav .bd {
+    float: left;
+    margin-left: 20px;
+    line-height: 45px;
+    overflow: hidden;
+}
+
+.nav .bd a {
+    float: left;
+    margin-right: 46px;
+}
+
+.nav .bd a:last-child::after {
+    position: relative;
+    top: 1px;
+    font-family: 'icomoon';
+    content: '\e91e';
+    margin-left: 5px;
+}
+
+.list_main .back {
+    height: 120px;
+}
+
+.list_main .list_items a {
+    float: left;
+    margin-right: 10px;
+    border: 1px solid transparent;
+}
+
+.list_main .list_items a:hover {
+    border-color: blanchedalmond;
+}
+
+.list_main .list_items a:nth-child(4n) {
+    margin: 0;
+}
