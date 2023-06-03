@@ -172,3 +172,104 @@
     height: 143px;
     background-color: #dddddd;
 }
+
+.floor .f1 {
+    margin-top: 10px;
+    height: 389px;
+    /* background-color: aqua; */
+    line-height: 100%;
+}
+
+.floor .f1 .head {
+    height: 29px;
+    line-height: 29px;
+    border-bottom: 1px solid #c81623;
+}
+
+.floor .f1 .head h1 {
+    float: left;
+    font-size: 18px;
+    color: #c81623;
+}
+
+.floor .f1 .head .tab_list {
+    float: right;
+}
+
+.floor .f1 .head .tab_list li {
+    float: left;
+}
+
+.floor .f1 .head .tab_list li a {
+    padding: 0 16px;
+}
+
+.floor .f1 .body {
+    height: 360px;
+    /* background-color: aquamarine; */
+}
+
+.floor .f1 .body .w1 {
+    width: 210px;
+    height: 100%;
+    text-align: center;
+}
+
+.floor .f1 .body .w2 {
+    width: 329px;
+    height: 100%;
+}
+
+.floor .f1 .body .w3 {
+    width: 219px;
+    height: 100%;
+}
+
+.floor .f1 .body .w5 {
+    width: 220px;
+    height: 100%;
+}
+
+.floor .f1 .body .w1 ul {
+    margin-left: 14px;
+    height: 99px;
+}
+
+.floor .f1 .body .w1 ul li {
+    float: left;
+    margin-right: 12px;
+    width: 86px;
+    height: 33px;
+    border-bottom: 1px solid #ededed;
+    line-height: 33px;
+}
+
+.floor .f1 .body div {
+    float: left;
+}
+
+.navigation {
+    position: fixed;
+    left: 0;
+    top: 50%;
+    margin-top: -63px;
+    width: 66px;
+    line-height: 32px;
+    font-size: 12px;
+    text-align: center;
+    color: #666666;
+}
+
+.navigation li {
+    width: 100%;
+    height: 32px;
+    border-bottom: 1px solid #e4e4e4;
+}
+
+.navigation li:hover {
+    background-color: red;
+}
+
+.navigation li:hover a {
+    color: white;
+}
