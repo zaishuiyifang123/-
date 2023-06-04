@@ -273,3 +273,7 @@
 .navigation li:hover a {
     color: white;
 }
+
+a {
+    transition: all 0.3s;
+}
